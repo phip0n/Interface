@@ -357,6 +357,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2118818627}
     - target: {fileID: 9091450881445779942, guid: 7bfe88c955d86124287afd1fd0a2507c, type: 3}
+      propertyPath: _group
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091450881445779942, guid: 7bfe88c955d86124287afd1fd0a2507c, type: 3}
       propertyPath: _chanel
       value: 1
       objectReference: {fileID: 0}
@@ -954,6 +958,10 @@ PrefabInstance:
       propertyPath: _menu
       value: 
       objectReference: {fileID: 2118818627}
+    - target: {fileID: 9091450881445779942, guid: 7bfe88c955d86124287afd1fd0a2507c, type: 3}
+      propertyPath: _group
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9091450881445779942, guid: 7bfe88c955d86124287afd1fd0a2507c, type: 3}
       propertyPath: _chanel
       value: 2
