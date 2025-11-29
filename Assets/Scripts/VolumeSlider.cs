@@ -5,15 +5,15 @@ using UnityEngine.UI;
 public class VolumeSlider : MonoBehaviour
 {
     [SerializeField] private Menu _menu;
-    [SerializeField] private AudioData.VolumeGroup _chanel;
+    [SerializeField] private AudioData.VolumeGroup _group;
     
     private string _chanelName;
 
     private void Awake()
     {
-        _chanelName = _chanel.ToString();
+        _chanelName = _group.ToString();
         Slider slider = GetComponent<Slider>();
-        float sliderValue = Mathf.Pow(10, _menu.GetMixerValue(_chanelName) / AudioData.Multiplyer);
+        float sliderValue = Mathf.Pow(AudioData.Ten, _menu.GetMixerValue(_chanelName) / AudioData.Multiplyer);
         slider.SetValueWithoutNotify(sliderValue);
     }
 
